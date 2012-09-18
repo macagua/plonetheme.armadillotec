@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-.inicioarma{font-family: "Pontano Sans ," sans-serif ;}
 body{
 	margin-left:0px;
 	margin-top:0px;
@@ -10,6 +9,7 @@ body{
 	background-image: url(../images/fondo_servicios.jpg);
 	background-repeat: repeat-x;
 }
+
 /*todo///////////////////////////////////////////////////////////////////////////////////////////////*/
 #contenido_todo {
 	width: 900px;
@@ -37,6 +37,7 @@ body{
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	}
+
 /*CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
 #medio_todo {
 	width: 863px;
@@ -66,6 +67,7 @@ body{
 	height: 174px;
 	float: left;
 	}
+
 /*COMIENZA EL MENU///////////////////////////////////////////////////////////////////////////////////////////////*/
 #verde_medio_2 {
 	width: 590px;
@@ -97,7 +99,7 @@ body{
 	width: 93px;
 	height: 53px;
 	float: left;
-	background-image: url(../images/botones_menu/servicios_down.jpg);
+	background-image: url(../images/servicios_down.jpg);
 	background-repeat: no-repeat;
 	}
 #menu_soluciones {
@@ -118,7 +120,9 @@ body{
 	height: 53px;
 	float: left;
 	}
-/*TERMINA EL MENU COMIENZAN LAS DIVISIONES CENTRALES///////////////////////////////////////////////////////////////////////////////////////////////*/
+/*TERMINA EL MENU ///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/*COMIENZAN LAS DIVISIONES CENTRALES///////////////////////////////////////////////////////////////////////////////////////////////*/
 #gris1_todo {
 	width: 863px;
 	height: 139px;
@@ -468,19 +472,21 @@ body{
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	}
+
 /*TERMINA El FIN DEL CONTENIDO Y ESTOS SON ESTILOS PARA HIPERVINCULOS///////////////////////////////////////////////////////////////////////////////////////////////*/
+
 a:link {
 	color: #3e3e3e;
 	text-decoration: none;
 }
 a:visited {
-	text-decoration: none;
 	color: #000000;
+	text-decoration: none;
 }
 a:hover {
 	color:#ff4800;
 }
 a:active {
-	text-decoration: none;
 	color: #3e3e3e;
+	text-decoration: none;
 }

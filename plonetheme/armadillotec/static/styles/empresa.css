@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-.inicioarma{font-family: "Pontano Sans ," sans-serif ;}
 body{
 	margin-left:0px;
 	margin-top:0px;
@@ -10,6 +9,7 @@ body{
 	background-image: url(../images/fondo_empresa.jpg);
 	background-repeat: repeat-x;
 }
+
 /*todo///////////////////////////////////////////////////////////////////////////////////////////////*/
 #contenido_todo {
 	width: 900px;
@@ -22,12 +22,14 @@ body{
 	margin-top: auto;
 	margin-bottom: auto;
 	}
+	
 #espacio_izq {
 	width: 18px;
 	height: 949px;
 	position: static;
 	float: left;
 	}
+	
 #espacio_izq1 {
 	width: 18px;
 	height: 254px;
@@ -37,12 +39,15 @@ body{
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	}
+	
 /*CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
+
 #medio_todo {
 	width: 863px;
 	height: 949px;
 	float: left;
 	}
+	
 #verde_todo {
 	width: 863px;
 	height: 254px;
@@ -51,22 +56,27 @@ body{
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	}
+	
 #verde_izq {
 	width: 140px;
 	height: 254px;
 	float: left;
 	}
+	
 #verde_medio_todo {
 	width: 590px;
 	height: 254px;
 	float: left;
 	}
+	
 #verde_medio_1 {
 	width: 590px;
 	height: 174px;
 	float: left;
 	}
+	
 /*COMIENZA EL MENU///////////////////////////////////////////////////////////////////////////////////////////////*/
+
 #verde_medio_2 {
 	width: 590px;
 	height: 55px;
@@ -86,96 +96,60 @@ body{
 	height: 53px;
 	float: left;
 	}
+	
 #menu_nosotros {
 	font-family: Homenaje;
 	width: 95px;
 	height: 53px;
 	float: left;
-	background-image: url(../images/botones_menu/nosotros_down.jpg);
+	background-image: url(../images/nosotros_down.jpg);
 	background-repeat: no-repeat;
 	}
+	
 #menu_sevicios {
 	font-family: Homenaje;
 	width: 93px;
 	height: 53px;
 	float: left;
 	}
+	
 #menu_soluciones {
 	font-family: Homenaje;
 	width: 106px;
 	height: 53px;
 	float: left;
 	}
+	
 #menu_tecnologias {
 	font-family: Homenaje;
 	width: 114px;
 	height: 53px;
 	float: left;
 	}
+	
 #menu_contacto {
 	font-family: Homenaje;
 	width: 93px;
 	height: 53px;
 	float: left;
 	}
+	
 /*TERMINA EL MENU///////////////////////////////////////////////////////////////////////////////////////////////*/
-#gris1_todo {
-	width: 863px;
-	height: 239px;
-	float: left;
-	background-image: url(../images/gris1_empresa.jpg);
-	background-repeat: no-repeat;
-	}
-#gris1_izq {
-	width: 101px;
-	height: 239px;
-	float: left;
-	}
-#gris1_text1 {
-	width: 400px;
-	height: 199px;
-	float: left;
-	padding-top: 40px;
-	}
-#gris1_titulo {
-	width: 400px;
-	height: 29px;
-	float: left;
-	}
-.titPage{
+	
+.titPage {
 	font-family: "Nixie One";
 	color:#ff4800;
 	font-size: 24pt;
-    }
-#gris1_texto1 {
-	width: 400px;
-	height: 144px;
-	float: left;
-	padding-top: 10px;
 	}
+	
 .textNormal{
 	font-family: "Pontano Sans";
 	color:#8d8772;
 	font-size: 11pt;
 	text-align: justify;
 	vertical-align: top;
-    }
-#gris1_espacio {
-	width: 74px;
-	height: 239px;
-	float: left;
 	}
-#gris1_text2 {
-	width: 205px;
-	height: 199px;
-	float: left;
-	padding-top: 40px;
-	}
-#gris1_text2_titulo {
-	width: 205px;
-	height: 29px;
-	float: left;
-	}
+	
 .textNormal_izq{
 	font-family: "Pontano Sans";
 	color:#8d8772;
@@ -183,24 +157,100 @@ body{
 	text-align: left;
 	vertical-align: top;
 }
-#gris1_text2_titulo2 {
-	width: 205px;
-	height: 29px;
-	float: left;
-	}
-#gris1_text2_texto2 {
-	width: 205px;
-	height: 130px;
-	float: left;
-	padding-top: 10px;
-	}
+	
 .textNormal_izq{
 	font-family: "Pontano Sans";
 	color:#8d8772;
 	font-size: 11pt;
 	text-align: left;
 	vertical-align: top;
-    }
+	}
+	
+.textNormal1{
+	font-family: "Pontano Sans", sans-serif;
+	color:#ff4800;
+	font-size: 12pt;
+	}
+	
+.textNormal_blanco{
+	font-family: "Pontano Sans";
+	color:#ffffff;
+	font-size: 10pt;
+	text-align: center;
+	}
+	
+.textNormal1_rif{
+	font-family: "Pontano Sans", sans-serif;
+	color:#ff4800;
+	font-size: 10pt;
+	}
+	
+#gris1_todo {
+	width: 863px;
+	height: 239px;
+	float: left;
+	background-image: url(../images/gris1_empresa.jpg);
+	background-repeat: no-repeat;
+	}
+	
+#gris1_izq {
+	width: 101px;
+	height: 239px;
+	float: left;
+	}
+	
+#gris1_text1 {
+	width: 400px;
+	height: 199px;
+	float: left;
+	padding-top: 40px;
+	}
+	
+#gris1_titulo {
+	width: 400px;
+	height: 29px;
+	float: left;
+	}
+	
+#gris1_texto1 {
+	width: 400px;
+	height: 144px;
+	float: left;
+	padding-top: 10px;
+	}
+	
+#gris1_espacio {
+	width: 74px;
+	height: 239px;
+	float: left;
+	}
+	
+#gris1_text2 {
+	width: 205px;
+	height: 199px;
+	float: left;
+	padding-top: 40px;
+	}
+	
+#gris1_text2_titulo {
+	width: 205px;
+	height: 29px;
+	float: left;
+	}
+
+#gris1_text2_titulo2 {
+	width: 205px;
+	height: 29px;
+	float: left;
+	}
+	
+#gris1_text2_texto2 {
+	width: 205px;
+	height: 130px;
+	float: left;
+	padding-top: 10px;
+	}
+	
 #gris2_todo {
 	width: 863px;
 	height: 254px;
@@ -232,21 +282,25 @@ body{
 	padding-left: 20px;
 	padding-top: 20px;
 	}
+	
 #gris3_todo {
 	width: 863px;
 	height: 202px;
 	float: left;
 	}
+	
 #gris3_izq {
 	width: 82px;
 	height: 202px;
 	float: left;
 	}
+	
 #gris3_medio-todo {
 	width: 700px;
 	height: 202px;
 	float: left;
 	}
+	
 #gris3_medio-arriba {
 	width: 679px;
 	height: 130px;
@@ -254,11 +308,7 @@ body{
 	padding-top: 36px;
 	padding-left: 18px;
 	}
-.textNormal1{
-	font-family: "Pontano Sans", sans-serif;
-	color:#ff4800;
-	font-size: 12pt;
-    }
+	
 #gris3_medio-rif {
 	width: 558px;
 	height: 26px;
@@ -269,17 +319,7 @@ body{
 	padding-top: 10px;
 	padding-left: 140px;
 	}
-.textNormal_blanco{
-	font-family: "Pontano Sans";
-	color:#ffffff;
-	font-size: 10pt;
-	text-align: center;
-    }
-.textNormal1_rif{
-	font-family: "Pontano Sans", sans-serif;
-	color:#ff4800;
-	font-size: 10pt;
-    }
+	
 /*FIN DEL CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
 #espacio_dere {
 	width: 18px;

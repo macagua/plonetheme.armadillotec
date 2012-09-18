@@ -1,6 +1,5 @@
 @charset "UTF-8";
 
-.inicioarma{font-family: "Pontano Sans ," sans-serif ;}
 body{
 	margin-left:0px;
 	margin-top:0px;
@@ -109,7 +108,7 @@ body{
 	width: 114px;
 	height: 53px;
 	float: left;
-	background-image: url(../images/botones_menu/tecnologias_down.jpg);
+	background-image: url(../images/tecnologias_down.jpg);
 	background-repeat: no-repeat;
 	}
 #menu_contacto {
