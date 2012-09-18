@@ -1,0 +1,342 @@
+@charset "UTF-8";
+
+.inicioarma{font-family: "Pontano Sans ," sans-serif ;}
+body{
+	margin-left:0px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom: 0px;
+	background-color: #e9e9df;
+	background-image: url(../images/fondo_contacto.jpg);
+	background-repeat: repeat-x;
+}
+/*todo///////////////////////////////////////////////////////////////////////////////////////////////*/
+#contenido_todo {
+	width: 900px;
+	height: 1170px;
+	position: static;
+	margin-right: auto;
+	margin-left: auto;
+	font-style: normal;
+	font-weight: normal;
+	margin-top: auto;
+	margin-bottom: auto;
+	}
+#espacio_izq {
+	width: 18px;
+	height: 1170px;
+	position: static;
+	float: left;
+	}
+#espacio_izq1 {
+	width: 18px;
+	height: 254px;
+	position: static;
+	float: left;
+	background-image: url(../images/sombra_izq_empre.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	}
+/*CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
+#medio_todo {
+	width: 863px;
+	height: 1170px;
+	float: left;
+	}
+#verde_todo {
+	width: 863px;
+	height: 254px;
+	float: left;
+	background-image: url(../images/verde_todo_empresa.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	}
+#verde_izq {
+	width: 140px;
+	height: 254px;
+	float: left;
+	}
+#verde_medio_todo {
+	width: 590px;
+	height: 254px;
+	float: left;
+	}
+#verde_medio_1 {
+	width: 590px;
+	height: 174px;
+	float: left;
+	}
+/*COMIENZA EL MENU///////////////////////////////////////////////////////////////////////////////////////////////*/
+#verde_medio_2 {
+	width: 590px;
+	height: 55px;
+	float: left;
+	background-image: url(../images/fondo_menu_empresa.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	}
+#menu_todo {
+	width: 580px;
+	height: 53px;
+	float: right;
+	}
+#menu_inicio {
+	font-family: Homenaje;
+	width: 70px;
+	height: 53px;
+	float: left;
+	}
+#menu_nosotros {
+	font-family: Homenaje;
+	width: 95px;
+	height: 53px;
+	float: left;
+	}
+#menu_sevicios {
+	font-family: Homenaje;
+	width: 93px;
+	height: 53px;
+	float: left;
+	}
+#menu_soluciones {
+	font-family: Homenaje;
+	width: 106px;
+	height: 53px;
+	float: left;
+	}
+#menu_tecnologias {
+	font-family: Homenaje;
+	width: 114px;
+	height: 53px;
+	float: left;
+	}
+#menu_contacto {
+	font-family: Homenaje;
+	width: 93px;
+	height: 53px;
+	float: left;
+	background-image: url(../images/botones_menu/contacto_down.jpg);
+	background-repeat: no-repeat;
+	}
+/*TERMINA EL MENU Y COMIENZA EL CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
+#gris1_todo {
+	width: 863px;
+	height: 526px;
+	float: left;
+	background-color: #938d79;
+	}
+#gris1_izq {
+	width: 118px;
+	height: 524px;
+	float: left;
+	background-image: url(../images/gris1_izq_contacto.jpg);
+	background-repeat: no-repeat;
+	}
+#gris1medio_todo {
+	width: 624px;
+	height: 526px;
+	float: left;
+	}
+#gris1medio_sup {
+	width: 624px;
+	height: 69px;
+	float: left;
+	background-image: url(../images/gris1_arriba_contacto.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	}
+#gris1medio_mapa {
+	width: 624px;
+	height: 372px;
+	float: left;
+	background-image: url(../images/mapa_contacto.jpg);
+	background-repeat: no-repeat;
+	}
+/*AQUI TE DEJO EL EFRAME TUX PARA QUE SE LO COLOQUES AL HTML ///////// <iframe src="nombre del html.html" width="624" height="372"></iframe> ////////*/
+#gris1medio_inf {
+	width: 624px;
+	height: 83px;
+	float: left;
+	background-image: url(../images/gris1_abajo_contacto.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	}
+#gris1_dere {
+	width: 120px;
+	height: 524px;
+	float: left;
+	background-image: url(../images/gris1_derecha_contacto.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	}
+#gris2_todo {
+	width: 863px;
+	height: 390px;
+	float: left;
+	background-image: url(../images/gris2_contacto.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	}
+#gris2_izq {
+	width: 83px;
+	height: 390px;
+	float: left;
+	}
+#gris2_medio_todo {
+	width: 700px;
+	height: 390px;
+	float: left;
+	}
+#gris2_medio_izq {
+	width: 344px;
+	height: 355px;
+	float: left;
+	}
+#gris2_medio_dere {
+	width: 355px;
+	height: 355px;
+	float: left;
+	}
+#rif {
+	width: 558px;
+	height: 25px;
+	float: left;
+	background-image: url(../images/rif_contacto.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding-top: 10px;
+	padding-left: 140px;
+	}
+/*TERMINA EL CONTENIDO Y COMIENZAN LOS ESTILOS DE TEXTO///////////////////////////////////////////////////////////////////////////////////////////////*/
+.titPage{
+	font-family: "Nixie One";
+	color:#768343;
+	font-size: 18pt;
+    }
+.textNormal{
+	font-family: "Pontano Sans";
+	color:#938d79;
+	font-size: 11pt;
+	text-align: left;
+	vertical-align: top;
+}
+.textNormal_verde{
+	font-family: "Pontano Sans";
+	color:#768343;
+	font-size: 10pt;
+	text-align: left;
+	vertical-align: top;
+}
+.textNormal_naranja{
+	font-family: "Pontano Sans";
+	color:#ff4800;
+	font-size: 11pt;
+	text-align: left;
+	vertical-align: top;
+}
+.textNormal1{
+	font-family: "Pontano Sans";
+	color:#938d79;
+	font-size: 10pt;
+	text-align: left;
+	vertical-align: top;
+    }
+.textrif_blanco{
+	font-family: "Pontano Sans";
+	color:#ffffff;
+	font-size: 10pt;
+	text-align: center;
+    }
+.textrif_naranja{
+	font-family: "Pontano Sans", sans-serif;
+	color:#ff4800;
+	font-size: 10pt;
+    }
+/*TERMINAN ESTILOS DE TEXTO Y COMIENZAN LOS TEXTOS///////////////////////////////////////////////////////////////////////////////////////////////*/
+#gris2_titulo {
+	width: 319px;
+	height: 35px;
+	float: left;
+	padding-top: 40px;
+	padding-left: 25px;
+	}
+#gris2_direccion {
+	width: 319px;
+	height: 60px;
+	float: left;
+	padding-top: 2px;
+	padding-left: 25px;
+	}
+#gris2_izq_medio {
+	width: 344px;
+	height: 134px;
+	float: left;
+	}
+#gris2_telefonos {
+	width: 135px;
+	height: 96px;
+	float: left;
+	padding-top: 38px;
+	padding-left: 25px;
+	}
+#gris2_horarios {
+	width: 159px;
+	height: 96px;
+	float: left;
+	padding-top: 38px;
+	padding-left: 15px;
+	}
+#gris2_mail {
+	width: 268px;
+	height: 45px;
+	float: left;
+	padding-top: 20px;
+	padding-left: 65px;
+	}
+#gris2_texto_dere {
+	width: 335px;
+	height: 54px;
+	float: left;
+	padding-top: 40px;
+	padding-left: 20px;
+	}
+#gris2_formulario {
+	width: 335px;
+	height: 260px;
+	float: left;
+	background-image: url(../images/formulario_contacto.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	}
+/*FIN DEL CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
+#espacio_dere {
+	width: 18px;
+	height: 1170px;
+	position: static;
+	float: right;
+    }
+#espacio_dere1 {
+	width: 18px;
+	height: 254px;
+	position: static;
+	float: right;
+	background-image: url(../images/sombra_dere_empre.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	}
+/*ESTILOS DE HIPERVINCULOS///////////////////////////////////////////////////////////////////////////////////////////////*/
+a:link {
+	color: #ff4800;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #3e3e3e;
+}
+a:hover {
+	color:#ff7200;
+}
+a:active {
+	text-decoration: none;
+	color: #ff4800;
+}

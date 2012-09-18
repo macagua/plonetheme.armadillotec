@@ -1,0 +1,342 @@
+@charset "UTF-8";
+
+.inicioarma{font-family: "Pontano Sans ," sans-serif ;}
+body{
+	margin-left:0px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom: 0px;
+	background-image: url(../images/fondo_index.jpg);
+	background-repeat: repeat-x;
+	background-color: #eae9df;
+}
+/*todo///////////////////////////////////////////////////////////////////////////////////////////////*/
+#contenido_todo {
+	width: 900px;
+	height: 1024px;
+	position: static;
+	margin-right: auto;
+	margin-left: auto;
+	font-style: normal;
+	font-weight: normal;
+	background-image: url(../images/fondo_index_todo.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	margin-top: auto;
+	margin-bottom: auto;
+	}
+#espacio_izq {
+	width: 17px;
+	height: 1024px;
+	position: static;
+	float: left;
+	}
+#espacio_izq1 {
+	width: 17px;
+	height: 491px;
+	position: static;
+	float: left;
+	background-image: url(../images/sombraizq_logo_index.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	}
+/*cuerpo//////////////////////////////////////////////////////////////////////////////////////////*/
+#contenido_centro_todo {
+	width: 866px;
+	height: 1024px;
+	float: left;
+	}
+#arriba_todo {
+	width: 866px;
+	height: 229px;
+	float: left;
+	}
+#arriba_izq {
+	width: 128px;
+	height: 229px;
+	float: left;
+	}
+#arriba_medio_todo {
+	width: 595px;
+	height: 229px;
+	float: left;
+	}
+#arriba_medio_arriba {
+	width: 595px;
+	height: 176px;
+	float: left;
+	}
+/*INICIO DEL MENU//////////////////////////////////////////////////////////////////////////////////////////*/
+#arriba_menu {
+	width: 595px;
+	height: 53px;
+	background-image: url(../images/menu.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	text-align: center;
+	float: right;
+	}
+#menu_todo {
+	width: 580px;
+	height: 53px;
+	float: right;
+	}
+#menu_inicio {
+	font-family: Homenaje;
+	width: 70px;
+	height: 53px;
+	float: left;
+	background-image: url(../images/botones_menu/inicio_down.jpg);
+	background-repeat: no-repeat;
+	}
+#menu_nosotros {
+	font-family: Homenaje;
+	width: 95px;
+	height: 53px;
+	float: left;
+	}
+#menu_sevicios {
+	font-family: Homenaje;
+	width: 93px;
+	height: 53px;
+	float: left;
+	}
+#menu_soluciones {
+	font-family: Homenaje;
+	width: 106px;
+	height: 53px;
+	float: left;
+	}
+#menu_tecnologias {
+	font-family: Homenaje;
+	width: 114px;
+	height: 53px;
+	float: left;
+	}
+#menu_contacto {
+	font-family: Homenaje;
+	width: 93px;
+	height: 53px;
+	float: left;
+	}
+/*FIN DEL MENU//////////////////////////////////////////////////////////////////////////////////////////*/
+#slide_todo {
+	width: 866px;
+	height: 518px;
+	float: left;
+	}
+#slide_arriba {
+	width: 866px;
+	height: 28px;
+	float: left;
+	}
+#slide_izquierda {
+	width: 87px;
+	height: 433px;
+	float: left;
+	}
+#slide_izquierda2 {
+	width: 16px;
+	height: 433px;
+	float: left;
+	}
+#slide_eframe_todo {
+	width: 651px;
+	height: 491px;
+	float: left;
+	}
+#slide_eframe_arriba {
+	width: 866px;
+	height: 27px;
+	float: left;
+	}
+#slide_eframe_izq {
+	width: 87px;
+	height: 491px;
+	float: left;
+	}
+#slide_eframe_izq1 {
+	width: 17px;
+	height: 433px;
+	float: left;
+	background-color: #3e3e3e;
+	}
+#slide_eframe_centro {
+	width: 651px;
+	height: 490px;
+	float: left;
+	}
+#slide_eframe_centro1 {
+	width: 651px;
+	height: 17px;
+	float: left;
+    background-color: #3e3e3e;
+	}
+#slide_eframe_eframe {
+	width: 651px;
+	height: 396px;
+	background-color: #8d8772;
+	float: left;
+	margin-right: auto;
+	margin-left: auto;
+	}
+#slide_eframe_centro2 {
+	width: 651px;
+	height: 20px;
+	float: left;
+	background-color: #3e3e3e;
+	background-image: url(../images/slide_bajo_index.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	}
+#slide_eframe_centro3 {
+	width: 651px;
+	height: 57px;
+	float: left;
+	background-image: url(../images/slide_index_fondo.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+ 	}
+#slide_eframe_dere1 {
+	width: 18px;
+	height: 433px;
+	float: left;
+	background-color: #3e3e3e;
+	}
+#gris1_todo {
+	width: 866px;
+	height: 242px;
+	float: left;
+	}
+#gris1_1 {
+	width: 85px;
+	height: 242px;
+	float: left;
+	}
+#gris1_2 {
+	width: 354px;
+	height: 177px;
+	float: left;
+	padding-top: 45px;
+	padding-left: 25px;
+	}
+#gris1_2_floss {
+	width: 332px;
+	height: 35px;
+	float: left;
+	background-image: url(../images/index_floss.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+	}
+.titPage{
+	font-family: "Nixie One";
+	color:#ff4800;
+	font-size: 28pt;
+    }
+.textNormal{
+	font-family: "Pontano Sans";
+	color:#8d8772;
+	font-size: 12pt;
+	text-align: left;
+    }
+.textNormal1{
+	font-family: "Pontano Sans", sans-serif;
+	color:#ff4800;
+	font-size: 12pt;
+    }
+.textNormal3{
+	font-family: "Pontano Sans";
+	color:#8d8772;
+	font-size: 12pt;
+	text-align: center;
+    }
+#gris1_2_texto {
+	width: 315px;
+	height: 120px;
+	float: left;
+	padding-top: 5px;
+	}
+#gris1_3 {
+	width: 267px;
+	height: 172px;
+	float: left;
+	padding-left: 40px;
+	padding-top: 70px;
+	}
+#gris1_3_texto {
+	width: 230px;
+	height: 30px;
+	float: left;
+	}
+.titPage1{
+	font-family: "Nixie One";
+	color:#ff4800;
+	font-size: 16pt;
+    }
+#gris1_3_texto2 {
+	width: 225px;
+	height: 85px;
+	float: left;
+	padding-top: 3px;
+	}
+#gris2_todo {
+	width: 866px;
+	height: 35px;
+	float: left;
+	}
+#gris2_izq {
+	width: 85px;
+	height: 35px;
+	float: left;
+	}
+#gris2_rif {
+	width: 558px;
+	height: 26px;
+	float: left;
+	padding-left: 140px;
+	padding-top: 9px;
+	}
+.textNormal_blanco{
+	font-family: "Pontano Sans";
+	color:#ffffff;
+	font-size: 10pt;
+	text-align: center;
+    }
+.textNormal1_rif{
+	font-family: "Pontano Sans", sans-serif;
+	color:#ff4800;
+	font-size: 10pt;
+    }
+/*//////////////////////////////////////////////////////////////////////////////////////////*/
+#espacio_dere {
+	width: 17px;
+	height: 1024px;
+	position: static;
+	float: right;
+	}
+#espacio_dere1 {
+	width: 17px;
+	height: 491px;
+	position: static;
+	float: right;
+	background-image: url(../images/sombraderecha_logo_index.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	}
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover {
+	text-decoration: none;
+	background-color:#ff4800;
+	color:#FFFFFF;
+}
+a:active {
+	text-decoration: none;
+	color: #ff4800;
+}

@@ -1,0 +1,358 @@
+@charset "UTF-8";
+
+.inicioarma{font-family: "Pontano Sans ," sans-serif ;}
+body{
+	margin-left:0px;
+	margin-top:0px;
+	margin-right:0px;
+	margin-bottom: 0px;
+	background-color: #778341;
+	background-image: url(../images/fondo_tecnologias.jpg);
+	background-repeat: repeat-x;
+}
+/*todo///////////////////////////////////////////////////////////////////////////////////////////////*/
+#contenido_todo {
+	width: 900px;
+	height: 1311px;
+	position: static;
+	margin-right: auto;
+	margin-left: auto;
+	font-style: normal;
+	font-weight: normal;
+	margin-top: auto;
+	margin-bottom: auto;
+	}
+#espacio_izq {
+	width: 18px;
+	height: 1311px;
+	position: static;
+	float: left;
+	}
+#espacio_izq1 {
+	width: 18px;
+	height: 254px;
+	position: static;
+	float: left;
+	background-image: url(../images/sombra_izq_empre.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	}
+/*CABECERO///////////////////////////////////////////////////////////////////////////////////////////////*/
+#medio_todo {
+	width: 863px;
+	height: 1311px;
+	float: left;
+	}
+#verde_todo {
+	width: 863px;
+	height: 254px;
+	float: left;
+	background-image: url(../images/verde_todo_empresa.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	}
+#verde_izq {
+	width: 140px;
+	height: 254px;
+	float: left;
+	}
+#verde_medio_todo {
+	width: 590px;
+	height: 254px;
+	float: left;
+	}
+#verde_medio_1 {
+	width: 590px;
+	height: 174px;
+	float: left;
+	}
+/*COMIENZA EL MENU///////////////////////////////////////////////////////////////////////////////////////////////*/
+#verde_medio_2 {
+	width: 590px;
+	height: 55px;
+	float: left;
+	background-image: url(../images/fondo_menu_empresa.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	}
+#menu_todo {
+	width: 580px;
+	height: 53px;
+	float: right;
+	}
+#menu_inicio {
+	font-family: Homenaje;
+	width: 70px;
+	height: 53px;
+	float: left;
+	}
+#menu_nosotros {
+	font-family: Homenaje;
+	width: 95px;
+	height: 53px;
+	float: left;
+	}
+#menu_sevicios {
+	font-family: Homenaje;
+	width: 93px;
+	height: 53px;
+	float: left;
+	}
+#menu_soluciones {
+	font-family: Homenaje;
+	width: 106px;
+	height: 53px;
+	float: left;
+	}
+#menu_tecnologias {
+	font-family: Homenaje;
+	width: 114px;
+	height: 53px;
+	float: left;
+	background-image: url(../images/botones_menu/tecnologias_down.jpg);
+	background-repeat: no-repeat;
+	}
+#menu_contacto {
+	font-family: Homenaje;
+	width: 93px;
+	height: 53px;
+	float: left;
+	}
+/*TERMINA EL MENU Y EMPIEZA EL CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
+#gris1_todo {
+	width: 863px;
+	height: 755px;
+	float: left;
+	background-image: url(../images/gris1_tecnologias.jpg);
+	background-repeat: no-repeat;
+	background-color: #8d8772;
+	}
+#gris1_izq {
+	width: 154px;
+	height: 755px;
+	float: left;
+	}
+#gris1_contenido_todo {
+	width: 564px;
+	height: 755px;
+	float: left;
+	}
+#gris1_texto_sup {
+	width: 564px;
+	height: 100px;
+	float: left;
+	}
+#gris1_contenido_vinetas {
+	width: 564px;
+	height: 655px;
+	float: left;
+	}
+#gris1_vinetas_izq {
+	width: 23px;
+	height: 655px;
+	float: left;
+	}
+#gris1_titulos1 {
+	width: 541px;
+	height: 52px;
+	float: left;
+	}
+#gris1_espacio_medio {
+	width: 103px;
+	height: 52px;
+	float: left;
+	}
+#gris1_textos_1 {
+	width: 541px;
+	height: 158px;
+	float: left;
+	}
+#division {
+	width: 863px;
+	height: 19px;
+	float: left;
+	background-image: url(../images/divisiones_servicios.png);
+	background-repeat: repeat-x;
+	}
+#gris1_espacio_medio2 {
+	width: 208px;
+	height: 158px;
+	float: left;
+	}
+#gris1_titulos2 {
+	width: 541px;
+	height: 103px;
+	float: left;
+	}
+#gris1_espacio_medio3 {
+	width: 166px;
+	height: 102px;
+	float: left;
+	}
+#gris1_textos3 {
+	width: 541px;
+	height: 304px;
+	float: left;
+	}
+#gris1_espacio_medio4 {
+	width: 207px;
+	height: 304px;
+	float: left;
+	}
+#blanco_todo {
+	width: 863px;
+	height: 188px;
+	float: left;
+	background-color: #FFFFFF;
+	}
+#blanco_izq {
+	width: 112px;
+	height: 188px;
+	float: left;
+	}
+#blanco_logos {
+	width: 639px;
+	height: 188px;
+	float: left;
+	background-image: url(../images/logos_tecnologias.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	}
+#abajo_todo {
+	width: 864px;
+	height: 93px;
+	float: left;
+	}
+#abajo_izq {
+	width: 83px;
+	height: 93px;
+	float: left;
+	}
+#abajo_medio_todo {
+	width: 700px;
+	height: 93px;
+	float: left;
+	}
+#abajo_medio_arriba {
+	width: 700px;
+	height: 59px;
+	float: left;
+	}
+#abajo_medio_rif {
+	width: 560px;
+	height: 26px;
+	float: left;
+	background-image: url(../images/rif_tecnologias.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-left: 140px;
+	padding-top: 10px;
+	}
+/*ESTILOS TEXTOS///////////////////////////////////////////////////////////////////////////////////////////////*/
+.titPage{
+	font-family: "Nixie One";
+	color:#ede9d4;
+	font-size: 18pt;
+    }
+.textNormal{
+	font-family: "Pontano Sans";
+	color:#ffffff;
+	font-size: 11pt;
+    }
+.texto_resaltado{
+	font-family: "Nixie One";
+	color:#ede9d4;
+	font-size: 13pt;
+    }
+.textrif_blanco{
+	font-family: "Pontano Sans";
+	color:#ffffff;
+	font-size: 10pt;
+	text-align: center;
+    }
+.textrif_naranja{
+	font-family: "Pontano Sans", sans-serif;
+	color:#ff4800;
+	font-size: 10pt;
+    }
+/*TERMINAN LOS ESTILOS DE TEXTO Y EMPIEZAN LOS TEXTOS///////////////////////////////////////////////////////////////////////////////////////////////*/
+#gris1_texto_titulo {
+	width: 434px;
+	height: 29px;
+	float: left;
+	padding-left: 130px;
+	padding-top: 25px;
+	}
+#gris1_texto_text {
+	width: 554px;
+	height: 23px;
+	float: left;
+	padding-top: 20px;
+	padding-left: 10px;
+	}
+#gris1_titulo_izq1 {
+	width: 202px;
+	height: 35px;
+	float: left;
+	padding-top: 16px;
+	}
+#gris1_titulo_dere1 {
+	width: 130px;
+	height: 35px;
+	float: left;
+	padding-top: 16px;
+	padding-left: 10px;
+	}
+#gris1_textos_izq1 {
+	width: 107px;
+	height: 158px;
+	float: left;
+	line-height: 27px;
+	}
+#gris1_textos_dere1 {
+	width: 94px;
+	height: 83px;
+	float: left;
+	line-height: 27px;
+	}
+#gris1_titulos2_izq {
+	width: 140px;
+	height: 45px;
+	float: left;
+	padding-top: 58px;
+	}
+#gris1_titulos2_dere {
+	width: 84px;
+	height: 44px;
+	float: left;
+	padding-left: 5px;
+	padding-top: 58px;
+	}
+#gris1_textos3_izq {
+	width: 107px;
+	height: 304px;
+	float: left;
+	line-height: 28px;
+	}
+#gris1_textos3_dere {
+	width: 93px;
+	height: 304px;
+	float: left;
+	line-height: 28px;
+	}
+/*FIN DEL CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
+#espacio_dere {
+	width: 18px;
+	height: 1311px;
+	position: static;
+	float: right;
+    }
+#espacio_dere1 {
+	width: 18px;
+	height: 254px;
+	position: static;
+	float: right;
+	background-image: url(../images/sombra_dere_empre.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	}
