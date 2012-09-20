@@ -6,11 +6,11 @@ body{
 	margin-right:0px;
 	margin-bottom: 0px;
 	background-color: #e9e9df;
-	background-image: url(../images/fondo_contacto.jpg);
+	background-image: url(../images/bg_contact.jpg);
 	background-repeat: repeat-x;
 }
 /*todo///////////////////////////////////////////////////////////////////////////////////////////////*/
-#contenido_todo {
+#content_todo {
 	width: 900px;
 	height: 1170px;
 	position: static;
@@ -21,186 +21,210 @@ body{
 	margin-top: auto;
 	margin-bottom: auto;
 	}
-#espacio_izq {
+
+#space_left {
 	width: 18px;
 	height: 1170px;
 	position: static;
 	float: left;
 	}
-#espacio_izq1 {
+
+#space_left1 {
 	width: 18px;
 	height: 254px;
 	position: static;
 	float: left;
-	background-image: url(../images/sombra_izq_empre.png);
+	background-image: url(../images/shadow_left_aboutus.png);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	}
 /*CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
-#medio_todo {
+#medium_todo {
 	width: 863px;
 	height: 1170px;
 	float: left;
 	}
-#verde_todo {
+
+#green_todo {
 	width: 863px;
 	height: 254px;
 	float: left;
-	background-image: url(../images/verde_todo_empresa.jpg);
+	background-image: url(../images/green_todo_aboutus.jpg);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	}
-#verde_izq {
+
+#green_left {
 	width: 140px;
 	height: 254px;
 	float: left;
 	}
-#verde_medio_todo {
+
+#green_medium_todo {
 	width: 590px;
 	height: 254px;
 	float: left;
 	}
-#verde_medio_1 {
+
+#green_medium_1 {
 	width: 590px;
 	height: 174px;
 	float: left;
 	}
 /*COMIENZA EL MENU///////////////////////////////////////////////////////////////////////////////////////////////*/
-#verde_medio_2 {
+#green_medium_2 {
 	width: 590px;
 	height: 55px;
 	float: left;
-	background-image: url(../images/fondo_menu_empresa.png);
+	background-image: url(../images/bg_menu_aboutus.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	}
+
 #menu_todo {
 	width: 580px;
 	height: 53px;
 	float: right;
 	}
-#menu_inicio {
-	font-family: Homenaje;
+
+#menu_index {
+	font-family: 'Homenaje';
 	width: 70px;
 	height: 53px;
 	float: left;
 	}
-#menu_nosotros {
-	font-family: Homenaje;
+
+#menu_aboutus {
+	font-family: 'Homenaje';
 	width: 95px;
 	height: 53px;
 	float: left;
 	}
-#menu_sevicios {
-	font-family: Homenaje;
+
+#menu_services {
+	font-family: 'Homenaje';
 	width: 93px;
 	height: 53px;
 	float: left;
 	}
-#menu_soluciones {
-	font-family: Homenaje;
+
+#menu_solutions {
+	font-family: 'Homenaje';
 	width: 106px;
 	height: 53px;
 	float: left;
 	}
-#menu_tecnologias {
-	font-family: Homenaje;
+
+#menu_technologies {
+	font-family: 'Homenaje';
 	width: 114px;
 	height: 53px;
 	float: left;
 	}
-#menu_contacto {
-	font-family: Homenaje;
+
+#menu_contact {
+	font-family: 'Homenaje';
 	width: 93px;
 	height: 53px;
 	float: left;
-	background-image: url(../images/botones_menu/contacto_down.jpg);
+	background-image: url(../images/contact_down.jpg);
 	background-repeat: no-repeat;
 	}
 /*TERMINA EL MENU Y COMIENZA EL CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
-#gris1_todo {
+#gray1_todo {
 	width: 863px;
 	height: 526px;
 	float: left;
 	background-color: #938d79;
 	}
-#gris1_izq {
+
+#gray1_left {
 	width: 118px;
 	height: 524px;
 	float: left;
-	background-image: url(../images/gris1_izq_contacto.jpg);
+	background-image: url(../images/gray1_left_contact.jpg);
 	background-repeat: no-repeat;
 	}
-#gris1medio_todo {
+
+#gray1medium_todo {
 	width: 624px;
 	height: 526px;
 	float: left;
 	}
-#gris1medio_sup {
+
+#gray1medium_sup {
 	width: 624px;
 	height: 69px;
 	float: left;
-	background-image: url(../images/gris1_arriba_contacto.jpg);
+	background-image: url(../images/gray1_up_contact.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
 	}
-#gris1medio_mapa {
+
+#gray1medium_mapa {
 	width: 624px;
 	height: 372px;
 	float: left;
-	background-image: url(../images/mapa_contacto.jpg);
+	background-image: url(../images/map_contact.jpg);
 	background-repeat: no-repeat;
 	}
 /*AQUI TE DEJO EL EFRAME TUX PARA QUE SE LO COLOQUES AL HTML ///////// <iframe src="nombre del html.html" width="624" height="372"></iframe> ////////*/
-#gris1medio_inf {
+#gray1medium_inf {
 	width: 624px;
 	height: 83px;
 	float: left;
-	background-image: url(../images/gris1_abajo_contacto.jpg);
+	background-image: url(../images/gray1_down_contact.jpg);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	}
-#gris1_dere {
+
+#gray1_right {
 	width: 120px;
 	height: 524px;
 	float: left;
-	background-image: url(../images/gris1_derecha_contacto.jpg);
+	background-image: url(../images/gray1_right_contact.jpg);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	}
-#gris2_todo {
+
+#gray2_todo {
 	width: 863px;
 	height: 390px;
 	float: left;
-	background-image: url(../images/gris2_contacto.jpg);
+	background-image: url(../images/gray2_contact.jpg);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	}
-#gris2_izq {
+
+#gray2_left {
 	width: 83px;
 	height: 390px;
 	float: left;
 	}
-#gris2_medio_todo {
+
+#gray2_medium_todo {
 	width: 700px;
 	height: 390px;
 	float: left;
 	}
-#gris2_medio_izq {
+
+#gray2_medium_left {
 	width: 344px;
 	height: 355px;
 	float: left;
 	}
-#gris2_medio_dere {
+
+#gray2_medium_right {
 	width: 355px;
 	height: 355px;
 	float: left;
 	}
+
 #rif {
 	width: 558px;
 	height: 25px;
 	float: left;
-	background-image: url(../images/rif_contacto.jpg);
+	background-image: url(../images/rif_contact.jpg);
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	padding-top: 10px;
@@ -219,7 +243,7 @@ body{
 	text-align: left;
 	vertical-align: top;
 }
-.textNormal_verde{
+.textNormal_green{
 	font-family: "Pontano Sans";
 	color:#768343;
 	font-size: 10pt;
@@ -240,7 +264,7 @@ body{
 	text-align: left;
 	vertical-align: top;
     }
-.textrif_blanco{
+.textrif_white{
 	font-family: "Pontano Sans";
 	color:#ffffff;
 	font-size: 10pt;
@@ -252,74 +276,81 @@ body{
 	font-size: 10pt;
     }
 /*TERMINAN ESTILOS DE TEXTO Y COMIENZAN LOS TEXTOS///////////////////////////////////////////////////////////////////////////////////////////////*/
-#gris2_titulo {
+#gray2_title {
 	width: 319px;
 	height: 35px;
 	float: left;
 	padding-top: 40px;
 	padding-left: 25px;
 	}
-#gris2_direccion {
+
+#gray2_direccion {
 	width: 319px;
 	height: 60px;
 	float: left;
 	padding-top: 2px;
 	padding-left: 25px;
 	}
-#gris2_izq_medio {
+
+#gray2_left_medium {
 	width: 344px;
 	height: 134px;
 	float: left;
 	}
-#gris2_telefonos {
+
+#gray2_telefonos {
 	width: 135px;
 	height: 96px;
 	float: left;
 	padding-top: 38px;
 	padding-left: 25px;
 	}
-#gris2_horarios {
+
+#gray2_horarios {
 	width: 159px;
 	height: 96px;
 	float: left;
 	padding-top: 38px;
 	padding-left: 15px;
 	}
-#gris2_mail {
+
+#gray2_mail {
 	width: 268px;
 	height: 45px;
 	float: left;
 	padding-top: 20px;
 	padding-left: 65px;
 	}
-#gris2_texto_dere {
+
+#gray2_text_right {
 	width: 335px;
 	height: 54px;
 	float: left;
 	padding-top: 40px;
 	padding-left: 20px;
 	}
-#gris2_formulario {
+
+#gray2_formulario {
 	width: 335px;
 	height: 260px;
 	float: left;
-	background-image: url(../images/formulario_contacto.jpg);
+	background-image: url(../images/form_contact.jpg);
 	background-repeat: no-repeat;
 	background-position: left top;
 	}
 /*FIN DEL CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
-#espacio_dere {
+#space_right {
 	width: 18px;
 	height: 1170px;
 	position: static;
 	float: right;
     }
-#espacio_dere1 {
+#space_right1 {
 	width: 18px;
 	height: 254px;
 	position: static;
 	float: right;
-	background-image: url(../images/sombra_dere_empre.png);
+	background-image: url(../images/shadow_right_aboutus.png);
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	}

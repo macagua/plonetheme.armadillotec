@@ -6,11 +6,78 @@ body{
 	margin-right:0px;
 	margin-bottom: 0px;
 	background-color: #eae9df;
-	background-image: url(../images/fondo_index.jpg);
+	background-image: url(../images/bg_index.jpg);
 	background-repeat: repeat-x;
 }
+
+a:link {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+a:visited {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+a:hover {
+	text-decoration: none;
+	background-color:#ff4800;
+	color:#FFFFFF;
+}
+
+a:active {
+	text-decoration: none;
+	color: #ff4800;
+}
+	
+.titPage1{
+	font-family: "Nixie One";
+	color:#ff4800;
+	font-size: 16pt;
+	}
+
+.titPage{
+	font-family: "Nixie One";
+	color:#ff4800;
+	font-size: 28pt;
+	}
+	
+.textNormal{
+	font-family: "Pontano Sans";
+	color:#8d8772;
+	font-size: 12pt;
+	text-align: left;
+	}
+	
+.textNormal1{
+	font-family: "Pontano Sans", sans-serif;
+	color:#ff4800;
+	font-size: 12pt;
+	}
+	
+.textNormal3{
+	font-family: "Pontano Sans";
+	color:#8d8772;
+	font-size: 12pt;
+	text-align: center;
+	}
+	
+.textNormal_white{
+	font-family: "Pontano Sans";
+	color:#ffffff;
+	font-size: 10pt;
+	text-align: center;
+	}
+	
+.textNormal1_rif{
+	font-family: "Pontano Sans", sans-serif;
+	color:#ff4800;
+	font-size: 10pt;
+	}
+	
 /*todo///////////////////////////////////////////////////////////////////////////////////////////////*/
-#contenido_todo {
+#content_todo {
 	width: 900px;
 	height: 1024px;
 	position: static;
@@ -18,30 +85,32 @@ body{
 	margin-left: auto;
 	font-style: normal;
 	font-weight: normal;
-	background-image: url(../images/fondo_index_todo.jpg);
+	background-image: url(../images/bg_index_todo.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	margin-top: auto;
 	margin-bottom: auto;
 	}
-#espacio_izq {
+	
+#space_left {
 	width: 17px;
 	height: 1024px;
 	position: static;
 	float: left;
 	}
-#espacio_izq1 {
+	
+#space_left1 {
 	width: 17px;
 	height: 491px;
 	position: static;
 	float: left;
-	background-image: url(../images/sombraizq_logo_index.png);
+	background-image: url(../images/shadow_left_logo_index.png);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	}
-
+	
 /*INICIO DEL MENU//////////////////////////////////////////////////////////////////////////////////////////*/
-#arriba_menu {
+#up_menu {
 	width: 595px;
 	height: 53px;
 	background-image: url(../images/menu.jpg);
@@ -50,68 +119,80 @@ body{
 	text-align: center;
 	float: right;
 	}
+
 #menu_todo {
 	width: 580px;
 	height: 53px;
 	float: right;
 	}
-#menu_inicio {
-	font-family: Homenaje;
+
+#menu_index {
+	font-family: 'Homenaje';
 	width: 70px;
 	height: 53px;
 	float: left;
-	background-image: url(../images/inicio_down.jpg);
+	background-image: url(../images/index_down.jpg);
 	background-repeat: no-repeat;
 	}
-#menu_nosotros {
-	font-family: Homenaje;
+
+#menu_aboutus {
+	font-family: 'Homenaje';
 	width: 95px;
 	height: 53px;
 	float: left;
 	}
-#menu_sevicios {
-	font-family: Homenaje;
+
+#menu_services {
+	font-family: 'Homenaje';
 	width: 93px;
 	height: 53px;
 	float: left;
 	}
-#menu_soluciones {
-	font-family: Homenaje;
+
+#menu_solutions {
+	font-family: 'Homenaje';
 	width: 106px;
 	height: 53px;
 	float: left;
 	}
-#menu_tecnologias {
-	font-family: Homenaje;
+
+#menu_technologies {
+	font-family: 'Homenaje';
 	width: 114px;
 	height: 53px;
 	float: left;
 	}
-#menu_contacto {
-	font-family: Homenaje;
+
+#menu_contact {
+	font-family: 'Homenaje';
 	width: 93px;
 	height: 53px;
 	float: left;
 	}
+
 /*FIN DEL MENU//////////////////////////////////////////////////////////////////////////////////////////*/
-#gris1_todo {
+
+#gray1_todo {
 	width: 866px;
 	height: 242px;
 	float: left;
 	}
-#gris1_1 {
+
+#gray1_1 {
 	width: 85px;
 	height: 242px;
 	float: left;
 	}
-#gris1_2 {
+
+#gray1_2 {
 	width: 354px;
 	height: 177px;
 	float: left;
 	padding-top: 45px;
 	padding-left: 25px;
 	}
-#gris1_2_floss {
+
+#gray1_2_floss {
 	width: 332px;
 	height: 35px;
 	float: left;
@@ -119,115 +200,70 @@ body{
 	background-repeat: no-repeat;
 	background-position: left top;
 	}
-.titPage{
-	font-family: "Nixie One";
-	color:#ff4800;
-	font-size: 28pt;
-    }
-.textNormal{
-	font-family: "Pontano Sans";
-	color:#8d8772;
-	font-size: 12pt;
-	text-align: left;
-    }
-.textNormal1{
-	font-family: "Pontano Sans", sans-serif;
-	color:#ff4800;
-	font-size: 12pt;
-    }
-.textNormal3{
-	font-family: "Pontano Sans";
-	color:#8d8772;
-	font-size: 12pt;
-	text-align: center;
-    }
-#gris1_2_texto {
+	
+#gray1_2_text {
 	width: 315px;
 	height: 120px;
 	float: left;
 	padding-top: 5px;
 	}
-#gris1_3 {
+
+#gray1_3 {
 	width: 267px;
 	height: 172px;
 	float: left;
 	padding-left: 40px;
 	padding-top: 70px;
 	}
-#gris1_3_texto {
+
+#gray1_3_text {
 	width: 230px;
 	height: 30px;
 	float: left;
 	}
-.titPage1{
-	font-family: "Nixie One";
-	color:#ff4800;
-	font-size: 16pt;
-    }
-#gris1_3_texto2 {
+	
+#gray1_3_text2 {
 	width: 225px;
 	height: 85px;
 	float: left;
 	padding-top: 3px;
 	}
-#gris2_todo {
+
+#gray2_todo {
 	width: 866px;
 	height: 35px;
 	float: left;
 	}
-#gris2_izq {
+
+#gray2_left {
 	width: 85px;
 	height: 35px;
 	float: left;
 	}
-#gris2_rif {
+
+#gray2_rif {
 	width: 558px;
 	height: 26px;
 	float: left;
 	padding-left: 140px;
 	padding-top: 9px;
 	}
-.textNormal_blanco{
-	font-family: "Pontano Sans";
-	color:#ffffff;
-	font-size: 10pt;
-	text-align: center;
-    }
-.textNormal1_rif{
-	font-family: "Pontano Sans", sans-serif;
-	color:#ff4800;
-	font-size: 10pt;
-    }
+	
 /*//////////////////////////////////////////////////////////////////////////////////////////*/
-#espacio_dere {
+
+#space_right {
 	width: 17px;
 	height: 1024px;
 	position: static;
 	float: right;
 	}
-#espacio_dere1 {
+
+#space_right1 {
 	width: 17px;
 	height: 491px;
 	position: static;
 	float: right;
-	background-image: url(../images/sombraderecha_logo_index.png);
+	background-image: url(../images/shadow_right_logo_index.png);
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	}
-a:link {
-	color: #FFFFFF;
-	text-decoration: none;
-}
-a:visited {
-	text-decoration: none;
-	color: #FFFFFF;
-}
-a:hover {
-	text-decoration: none;
-	background-color:#ff4800;
-	color:#FFFFFF;
-}
-a:active {
-	text-decoration: none;
-	color: #ff4800;
-}

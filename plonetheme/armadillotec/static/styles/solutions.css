@@ -6,11 +6,11 @@ body{
 	margin-right:0px;
 	margin-bottom: 0px;
 	background-color: #e9e9df;
-	background-image: url(../images/fondo_soluciones.jpg);
+	background-image: url(../images/bg_solutions.jpg);
 	background-repeat: repeat-x;
 }
 /*todo///////////////////////////////////////////////////////////////////////////////////////////////*/
-#contenido_todo {
+#content_todo {
 	width: 900px;
 	height: 1021px;
 	position: static;
@@ -21,141 +21,159 @@ body{
 	margin-top: auto;
 	margin-bottom: auto;
 	}
-#espacio_izq {
+
+#space_left {
 	width: 18px;
 	height: 1021px;
 	position: static;
 	float: left;
 	}
-#espacio_izq1 {
+
+#space_left1 {
 	width: 18px;
 	height: 254px;
 	position: static;
 	float: left;
-	background-image: url(../images/sombra_izq_empre.png);
+	background-image: url(../images/shadow_left_aboutus.png);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	}
 /*CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
-#medio_todo {
+#medium_todo {
 	width: 863px;
 	height: 1021px;
 	float: left;
 	}
-#verde_todo {
+
+#green_todo {
 	width: 863px;
 	height: 254px;
 	float: left;
-	background-image: url(../images/verde_todo_empresa.jpg);
+	background-image: url(../images/green_todo_aboutus.jpg);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	}
-#verde_izq {
+
+#green_left {
 	width: 140px;
 	height: 254px;
 	float: left;
 	}
-#verde_medio_todo {
+
+#green_medium_todo {
 	width: 590px;
 	height: 254px;
 	float: left;
 	}
-#verde_medio_1 {
+
+#green_medium_1 {
 	width: 590px;
 	height: 174px;
 	float: left;
 	}
 /*COMIENZA EL MENU///////////////////////////////////////////////////////////////////////////////////////////////*/
-#verde_medio_2 {
+#green_medium_2 {
 	width: 590px;
 	height: 55px;
 	float: left;
-	background-image: url(../images/fondo_menu_empresa.png);
+	background-image: url(../images/bg_menu_aboutus.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	}
+
 #menu_todo {
 	width: 580px;
 	height: 53px;
 	float: right;
 	}
-#menu_inicio {
-	font-family: Homenaje;
+
+#menu_index {
+	font-family: 'Homenaje';
 	width: 70px;
 	height: 53px;
 	float: left;
 	}
+
 #menu_nosotros {
-	font-family: Homenaje;
+	font-family: 'Homenaje';
 	width: 95px;
 	height: 53px;
 	float: left;
 	}
-#menu_sevicios {
-	font-family: Homenaje;
+
+#menu_services {
+	font-family: 'Homenaje';
 	width: 93px;
 	height: 53px;
 	float: left;
 	}
-#menu_soluciones {
-	font-family: Homenaje;
+
+#menu_solutions {
+	font-family: 'Homenaje';
 	width: 106px;
 	height: 53px;
 	float: left;
-	background-image: url(../images/soluciones_down.jpg);
+	background-image: url(../images/solutions_down.jpg);
 	background-repeat: no-repeat;
 	}
-#menu_tecnologias {
-	font-family: Homenaje;
+
+#menu_technologies {
+	font-family: 'Homenaje';
 	width: 114px;
 	height: 53px;
 	float: left;
 	}
-#menu_contacto {
-	font-family: Homenaje;
+
+#menu_contact {
+	font-family: 'Homenaje';
 	width: 93px;
 	height: 53px;
 	float: left;
 	}
 /*TERMINA EL MENU///////////////////////////////////////////////////////////////////////////////////////////////*/
-#gris1_todo {
+#gray1_todo {
 	width: 863px;
 	height: 221px;
 	float: left;
-	background-image: url(../images/gris1_soluciones.jpg);
+	background-image: url(../images/gray1_solutions.jpg);
 	background-repeat: no-repeat;
 	}
-#gris1_izq {
+
+#gray1_left {
 	width: 110px;
 	height: 221px;
 	float: left;
 	}
-#gris1_izq1 {
+
+#gray1_left1 {
 	width: 17px;
 	height: 221px;
 	float: left;
-	background-image: url(../images/soluciones_vineta1.png);
+	background-image: url(../images/solutions_bullet1.png);
 	background-repeat: no-repeat;
 	}
 /*TEXTOS ARRIBA///////////////////////////////////////////////////////////////////////////////////////////////*/
-#gris1_text1 {
+#gray1_text1 {
 	width: 615px;
 	height: 219px;
 	float: left;
 	}
-#gris1_titulo {
+
+#gray1_title {
 	width: 615px;
 	height: 35px;
 	float: left;
 	padding-top: 33px;
 	}
-#gris1_texto_normal {
+
+#gray1_text_normal {
 	width: 615px;
 	height: 40px;
 	float: left;
 	padding-top: 15px;
 	}
-#gris1_texto_resaltado {
+
+#gray1_text_resaltado {
 	width: 615px;
 	height: 85px;
 	float: left;
@@ -179,7 +197,7 @@ body{
 	text-align: justify;
 	vertical-align: top;
     }
-.textNormal_izq{
+.textNormal_left{
 	font-family: "Pontano Sans";
 	color:#8d8772;
 	font-size: 11pt;
@@ -193,7 +211,7 @@ body{
 	text-align: center;
 	vertical-align: top;
     }
-.textNormal_blanco{
+.textNormal_white{
 	font-family: "Pontano Sans";
 	color:#ffffff;
 	font-size: 10pt;
@@ -210,97 +228,109 @@ body{
 	font-size: 12pt;
     }
 /*TERMINAN ESTILOS DE TEXTO///////////////////////////////////////////////////////////////////////////////////////////////*/
-#gris2_todo {
+#gray2_todo {
 	width: 863px;
 	height: 394px;
 	float: left;
-	background-image: url(../images/gris2_soluciones.jpg);
+	background-image: url(../images/gray2_solutions.jpg);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	}
-#gris2_izq {
+
+#gray2_left {
 	width: 110px;
 	height: 394px;
 	float: left;
 	}
-#gris2_izq1 {
+
+#gray2_left1 {
 	width: 17px;
 	height: 394px;
 	float: left;
-	background-image: url(../images/soluciones_vinetas2.png);
+	background-image: url(../images/solutions_bullets2.png);
 	background-repeat: no-repeat;
 	background-position: center top;
 	}
 /*TEXTOS MEDIO///////////////////////////////////////////////////////////////////////////////////////////////*/
-#gris2_text {
+#gray2_text {
 	width: 615px;
 	height: 394px;
 	float: left;
 	padding-top: 0px;
 	}
-#gris2_titulo1 {
+
+#gray2_title1 {
 	width: 605px;
 	height: 24px;
 	float: left;
 	padding-top: 34px;
 	padding-left: 10px;
 	}
-#gris2_titulo2 {
+
+#gray2_title2 {
 	width: 605px;
 	height: 20px;
 	float: left;
 	padding-left: 10px;
 	padding-top: 3px;
 	}
-#gris2_titulo3 {
+
+#gray2_title3 {
 	width: 605px;
 	height: 20px;
 	float: left;
 	padding-top: 14px;
 	padding-left: 10px;
 	}
-#gris2_titulo4 {
+
+#gray2_title4 {
 	width: 605px;
 	height: 18px;
 	float: left;
 	padding-top: 10px;
 	padding-left: 10px;
 	}
-#gris2_titulo5 {
+
+#gray2_title5 {
 	width: 605px;
 	height: 21px;
 	float: left;
 	padding-top: 5px;
 	padding-left: 10px;
 	}
-#gris2_texto1 {
+
+#gray2_text1 {
 	width: 605px;
 	height: 48px;
 	float: left;
 	padding-left: 10px;
 	}
-#gris2_texto2 {
+
+#gray2_text2 {
 	width: 605px;
 	height: 34px;
 	float: left;
 	padding-top: 3px;
 	padding-left: 10px;
 	}
-#gris2_texto3 {
+
+#gray2_text3 {
 	width: 605px;
 	height: 23px;
 	float: left;
 	padding-top: 3px;
 	padding-left: 10px;
 	}
-#gris2_texto4 {
+
+#gray2_text4 {
 	width: 605px;
 	height: 30px;
 	float: left;
 	padding-top: 6px;
 	padding-left: 10px;
 	}
-#gris2_texto5 {
+
+#gray2_text5 {
 	width: 605px;
 	height: 35px;
 	float: left;
@@ -308,25 +338,28 @@ body{
 	padding-left: 10px;
 	}
 /*TERMINA TEXTOS MEDIO///////////////////////////////////////////////////////////////////////////////////////////////*/
-#gris3_todo {
+#gray3_todo {
 	width: 863px;
 	height: 117px;
 	float: left;
-	background-image: url(../images/gris3_soluciones.jpg);
+	background-image: url(../images/gray3_solutions.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	}
-#gris3_izq {
+
+#gray3_left {
 	width: 82px;
 	height: 117px;
 	float: left;
 	}
-#gris3_medio-todo {
+
+#gray3_medium-todo {
 	width: 700px;
 	height: 117px;
 	float: left;
 	}
-#gris3_medio-arriba {
+
+#gray3_medium-up {
 	width: 641px;
 	height: 84px;
 	float: left;
@@ -334,29 +367,30 @@ body{
 	padding-left: 50px;
 	padding-right: 10px;
 	}
-#gris3_medio-rif {
+
+#gray3_medium-rif {
 	width: 558px;
 	height: 26px;
 	float: left;
-	background-image: url(../images/rif_empresa.jpg);
+	background-image: url(../images/rif_aboutus.jpg);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	padding-top: 10px;
 	padding-left: 140px;
 	}
 /*FIN DEL CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
-#espacio_dere {
+#space_right {
 	width: 18px;
 	height: 1021px;
 	position: static;
 	float: right;
     }
-#espacio_dere1 {
+#space_right1 {
 	width: 18px;
 	height: 254px;
 	position: static;
 	float: right;
-	background-image: url(../images/sombra_dere_empre.png);
+	background-image: url(../images/shadow_right_aboutus.png);
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	}

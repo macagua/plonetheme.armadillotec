@@ -6,12 +6,12 @@ body{
 	margin-right:0px;
 	margin-bottom: 0px;
 	background-color: #e9e9df;
-	background-image: url(../images/fondo_empresa.jpg);
+	background-image: url(../images/bg_aboutus.jpg);
 	background-repeat: repeat-x;
 }
 
 /*todo///////////////////////////////////////////////////////////////////////////////////////////////*/
-#contenido_todo {
+#content_todo {
 	width: 900px;
 	height: 949px;
 	position: static;
@@ -23,53 +23,53 @@ body{
 	margin-bottom: auto;
 	}
 	
-#espacio_izq {
+#space_left {
 	width: 18px;
 	height: 949px;
 	position: static;
 	float: left;
 	}
 	
-#espacio_izq1 {
+#space_left1 {
 	width: 18px;
 	height: 254px;
 	position: static;
 	float: left;
-	background-image: url(../images/sombra_izq_empre.png);
+	background-image: url(../images/shadow_left_aboutus.png);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	}
 	
 /*CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
 
-#medio_todo {
+#medium_todo {
 	width: 863px;
 	height: 949px;
 	float: left;
 	}
 	
-#verde_todo {
+#green_todo {
 	width: 863px;
 	height: 254px;
 	float: left;
-	background-image: url(../images/verde_todo_empresa.jpg);
+	background-image: url(../images/green_todo_aboutus.jpg);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	}
 	
-#verde_izq {
+#green_left {
 	width: 140px;
 	height: 254px;
 	float: left;
 	}
 	
-#verde_medio_todo {
+#green_medium_todo {
 	width: 590px;
 	height: 254px;
 	float: left;
 	}
 	
-#verde_medio_1 {
+#green_medium_1 {
 	width: 590px;
 	height: 174px;
 	float: left;
@@ -77,58 +77,60 @@ body{
 	
 /*COMIENZA EL MENU///////////////////////////////////////////////////////////////////////////////////////////////*/
 
-#verde_medio_2 {
+#green_medium_2 {
 	width: 590px;
 	height: 55px;
 	float: left;
-	background-image: url(../images/fondo_menu_empresa.png);
+	background-image: url(../images/bg_menu_aboutus.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	}
+
 #menu_todo {
 	width: 580px;
 	height: 53px;
 	float: right;
 	}
-#menu_inicio {
-	font-family: Homenaje;
+
+#menu_index {
+	font-family: 'Homenaje';
 	width: 70px;
 	height: 53px;
 	float: left;
 	}
 	
-#menu_nosotros {
-	font-family: Homenaje;
+#menu_aboutus {
+	font-family: 'Homenaje';
 	width: 95px;
 	height: 53px;
 	float: left;
-	background-image: url(../images/nosotros_down.jpg);
+	background-image: url(../images/aboutus_down.jpg);
 	background-repeat: no-repeat;
 	}
 	
-#menu_sevicios {
-	font-family: Homenaje;
+#menu_services {
+	font-family: 'Homenaje';
 	width: 93px;
 	height: 53px;
 	float: left;
 	}
 	
-#menu_soluciones {
-	font-family: Homenaje;
+#menu_solutions {
+	font-family: 'Homenaje';
 	width: 106px;
 	height: 53px;
 	float: left;
 	}
 	
-#menu_tecnologias {
-	font-family: Homenaje;
+#menu_technologies {
+	font-family: 'Homenaje';
 	width: 114px;
 	height: 53px;
 	float: left;
 	}
 	
-#menu_contacto {
-	font-family: Homenaje;
+#menu_contact {
+	font-family: 'Homenaje';
 	width: 93px;
 	height: 53px;
 	float: left;
@@ -150,7 +152,7 @@ body{
 	vertical-align: top;
 	}
 	
-.textNormal_izq{
+.textNormal_left{
 	font-family: "Pontano Sans";
 	color:#8d8772;
 	font-size: 11pt;
@@ -158,7 +160,7 @@ body{
 	vertical-align: top;
 }
 	
-.textNormal_izq{
+.textNormal_left{
 	font-family: "Pontano Sans";
 	color:#8d8772;
 	font-size: 11pt;
@@ -172,7 +174,7 @@ body{
 	font-size: 12pt;
 	}
 	
-.textNormal_blanco{
+.textNormal_white{
 	font-family: "Pontano Sans";
 	color:#ffffff;
 	font-size: 10pt;
@@ -185,123 +187,127 @@ body{
 	font-size: 10pt;
 	}
 	
-#gris1_todo {
+#gray1_todo {
 	width: 863px;
 	height: 239px;
 	float: left;
-	background-image: url(../images/gris1_empresa.jpg);
+	background-image: url(../images/gray1_aboutus.jpg);
 	background-repeat: no-repeat;
 	}
 	
-#gris1_izq {
+#gray1_left {
 	width: 101px;
 	height: 239px;
 	float: left;
 	}
 	
-#gris1_text1 {
+#gray1_text1 {
 	width: 400px;
 	height: 199px;
 	float: left;
 	padding-top: 40px;
 	}
 	
-#gris1_titulo {
+#gray1_title {
 	width: 400px;
 	height: 29px;
 	float: left;
 	}
 	
-#gris1_texto1 {
+#gray1_text1 {
 	width: 400px;
 	height: 144px;
 	float: left;
 	padding-top: 10px;
 	}
 	
-#gris1_espacio {
+#gray1_space {
 	width: 74px;
 	height: 239px;
 	float: left;
 	}
 	
-#gris1_text2 {
+#gray1_text2 {
 	width: 205px;
 	height: 199px;
 	float: left;
 	padding-top: 40px;
 	}
 	
-#gris1_text2_titulo {
+#gray1_text2_title {
 	width: 205px;
 	height: 29px;
 	float: left;
 	}
 
-#gris1_text2_titulo2 {
+#gray1_text2_title2 {
 	width: 205px;
 	height: 29px;
 	float: left;
 	}
 	
-#gris1_text2_texto2 {
+#gray1_text2_text2 {
 	width: 205px;
 	height: 130px;
 	float: left;
 	padding-top: 10px;
 	}
 	
-#gris2_todo {
+#gray2_todo {
 	width: 863px;
 	height: 254px;
 	float: left;
 	}
-#gris2_izq {
+
+#gray2_left {
 	width: 101px;
 	height: 254px;
 	float: left;
 	}
-#gris2_text {
+
+#gray2_text {
 	width: 679px;
 	height: 214px;
 	float: left;
 	padding-top: 40px;
 	}
-#gris2_text_titulo2 {
+
+#gray2_text_title2 {
 	width: 679px;
 	height: 28px;
 	float: left;
 	}
-#gris2_text2_texto1 {
+
+#gray2_text2_text1 {
 	width: 659px;
 	height: 122px;
 	float: left;
-	background-image: url(../images/valores_empresa.png);
+	background-image: url(../images/valores_aboutus.png);
 	background-repeat: no-repeat;
 	background-position: left center;
 	padding-left: 20px;
 	padding-top: 20px;
 	}
 	
-#gris3_todo {
+#gray3_todo {
 	width: 863px;
 	height: 202px;
 	float: left;
 	}
 	
-#gris3_izq {
+#gray3_left {
 	width: 82px;
 	height: 202px;
 	float: left;
 	}
 	
-#gris3_medio-todo {
+#gray3_medium-todo {
 	width: 700px;
 	height: 202px;
 	float: left;
 	}
 	
-#gris3_medio-arriba {
+#gray3_medium-up {
 	width: 679px;
 	height: 130px;
 	float: left;
@@ -309,11 +315,11 @@ body{
 	padding-left: 18px;
 	}
 	
-#gris3_medio-rif {
+#gray3_medium-rif {
 	width: 558px;
 	height: 26px;
 	float: left;
-	background-image: url(../images/rif_empresa.jpg);
+	background-image: url(../images/rif_aboutus.jpg);
 	background-repeat: no-repeat;
 	background-position: center center;
 	padding-top: 10px;
@@ -321,18 +327,18 @@ body{
 	}
 	
 /*FIN DEL CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
-#espacio_dere {
+#space_right {
 	width: 18px;
 	height: 949px;
 	position: static;
 	float: right;
     }
-#espacio_dere1 {
+#space_right1 {
 	width: 18px;
 	height: 254px;
 	position: static;
 	float: right;
-	background-image: url(../images/sombra_dere_empre.png);
+	background-image: url(../images/shadow_right_aboutus.png);
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	}

@@ -6,11 +6,11 @@ body{
 	margin-right:0px;
 	margin-bottom: 0px;
 	background-color: #778341;
-	background-image: url(../images/fondo_tecnologias.jpg);
+	background-image: url(../images/bg_technologies.jpg);
 	background-repeat: repeat-x;
 }
 /*todo///////////////////////////////////////////////////////////////////////////////////////////////*/
-#contenido_todo {
+#content_todo {
 	width: 900px;
 	height: 1311px;
 	position: static;
@@ -21,227 +21,262 @@ body{
 	margin-top: auto;
 	margin-bottom: auto;
 	}
-#espacio_izq {
+
+#space_left {
 	width: 18px;
 	height: 1311px;
 	position: static;
 	float: left;
 	}
-#espacio_izq1 {
+
+#space_left1 {
 	width: 18px;
 	height: 254px;
 	position: static;
 	float: left;
-	background-image: url(../images/sombra_izq_empre.png);
+	background-image: url(../images/shadow_left_aboutus.png);
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	}
 /*CABECERO///////////////////////////////////////////////////////////////////////////////////////////////*/
-#medio_todo {
+#medium_todo {
 	width: 863px;
 	height: 1311px;
 	float: left;
 	}
-#verde_todo {
+
+#green_todo {
 	width: 863px;
 	height: 254px;
 	float: left;
-	background-image: url(../images/verde_todo_empresa.jpg);
+	background-image: url(../images/green_todo_aboutus.jpg);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	}
-#verde_izq {
+
+#green_left {
 	width: 140px;
 	height: 254px;
 	float: left;
 	}
-#verde_medio_todo {
+
+#green_medium_todo {
 	width: 590px;
 	height: 254px;
 	float: left;
 	}
-#verde_medio_1 {
+
+#green_medium_1 {
 	width: 590px;
 	height: 174px;
 	float: left;
 	}
 /*COMIENZA EL MENU///////////////////////////////////////////////////////////////////////////////////////////////*/
-#verde_medio_2 {
+#green_medium_2 {
 	width: 590px;
 	height: 55px;
 	float: left;
-	background-image: url(../images/fondo_menu_empresa.png);
+	background-image: url(../images/bg_menu_aboutus.png);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	}
+
 #menu_todo {
 	width: 580px;
 	height: 53px;
 	float: right;
 	}
-#menu_inicio {
-	font-family: Homenaje;
+
+#menu_index {
+	font-family: 'Homenaje';
 	width: 70px;
 	height: 53px;
 	float: left;
 	}
-#menu_nosotros {
-	font-family: Homenaje;
+
+#menu_aboutus {
+	font-family: 'Homenaje';
 	width: 95px;
 	height: 53px;
 	float: left;
 	}
-#menu_sevicios {
-	font-family: Homenaje;
+
+#menu_services {
+	font-family: 'Homenaje';
 	width: 93px;
 	height: 53px;
 	float: left;
 	}
-#menu_soluciones {
-	font-family: Homenaje;
+
+#menu_solutions {
+	font-family: 'Homenaje';
 	width: 106px;
 	height: 53px;
 	float: left;
 	}
-#menu_tecnologias {
-	font-family: Homenaje;
+
+#menu_technologies {
+	font-family: 'Homenaje';
 	width: 114px;
 	height: 53px;
 	float: left;
-	background-image: url(../images/tecnologias_down.jpg);
+	background-image: url(../images/technologies_down.jpg);
 	background-repeat: no-repeat;
 	}
-#menu_contacto {
-	font-family: Homenaje;
+
+#menu_contact {
+	font-family: 'Homenaje';
 	width: 93px;
 	height: 53px;
 	float: left;
 	}
 /*TERMINA EL MENU Y EMPIEZA EL CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
-#gris1_todo {
+#gray1_todo {
 	width: 863px;
 	height: 755px;
 	float: left;
-	background-image: url(../images/gris1_tecnologias.jpg);
+	background-image: url(../images/gray1_technologies.jpg);
 	background-repeat: no-repeat;
 	background-color: #8d8772;
 	}
-#gris1_izq {
+
+#gray1_left {
 	width: 154px;
 	height: 755px;
 	float: left;
 	}
-#gris1_contenido_todo {
+
+#gray1_content_todo {
 	width: 564px;
 	height: 755px;
 	float: left;
 	}
-#gris1_texto_sup {
+
+#gray1_text_sup {
 	width: 564px;
 	height: 100px;
 	float: left;
 	}
-#gris1_contenido_vinetas {
+
+#gray1_content_bullets {
 	width: 564px;
 	height: 655px;
 	float: left;
 	}
-#gris1_vinetas_izq {
+
+#gray1_bullets_left {
 	width: 23px;
 	height: 655px;
 	float: left;
 	}
-#gris1_titulos1 {
+
+#gray1_titles1 {
 	width: 541px;
 	height: 52px;
 	float: left;
 	}
-#gris1_espacio_medio {
+
+#gray1_space_medium {
 	width: 103px;
 	height: 52px;
 	float: left;
 	}
-#gris1_textos_1 {
+
+#gray1_texts_1 {
 	width: 541px;
 	height: 158px;
 	float: left;
 	}
-#division {
+
+#section {
 	width: 863px;
 	height: 19px;
 	float: left;
-	background-image: url(../images/divisiones_servicios.png);
+	background-image: url(../images/sections_services.png);
 	background-repeat: repeat-x;
 	}
-#gris1_espacio_medio2 {
+
+#gray1_space_medium2 {
 	width: 208px;
 	height: 158px;
 	float: left;
 	}
-#gris1_titulos2 {
+
+#gray1_titles2 {
 	width: 541px;
 	height: 103px;
 	float: left;
 	}
-#gris1_espacio_medio3 {
+
+#gray1_space_medium3 {
 	width: 166px;
 	height: 102px;
 	float: left;
 	}
-#gris1_textos3 {
+
+#gray1_texts3 {
 	width: 541px;
 	height: 304px;
 	float: left;
 	}
-#gris1_espacio_medio4 {
+
+#gray1_space_medium4 {
 	width: 207px;
 	height: 304px;
 	float: left;
 	}
-#blanco_todo {
+
+#white_todo {
 	width: 863px;
 	height: 188px;
 	float: left;
 	background-color: #FFFFFF;
 	}
-#blanco_izq {
+
+#white_left {
 	width: 112px;
 	height: 188px;
 	float: left;
 	}
-#blanco_logos {
+
+#white_logos {
 	width: 639px;
 	height: 188px;
 	float: left;
-	background-image: url(../images/logos_tecnologias.jpg);
+	background-image: url(../images/logos_technologies.jpg);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	}
-#abajo_todo {
+
+#down_todo {
 	width: 864px;
 	height: 93px;
 	float: left;
 	}
-#abajo_izq {
+
+#down_left {
 	width: 83px;
 	height: 93px;
 	float: left;
 	}
-#abajo_medio_todo {
+
+#down_medium_todo {
 	width: 700px;
 	height: 93px;
 	float: left;
 	}
-#abajo_medio_arriba {
+
+#down_medium_up {
 	width: 700px;
 	height: 59px;
 	float: left;
 	}
-#abajo_medio_rif {
+
+#down_medium_rif {
 	width: 560px;
 	height: 26px;
 	float: left;
-	background-image: url(../images/rif_tecnologias.jpg);
+	background-image: url(../images/rif_technologies.jpg);
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	padding-left: 140px;
@@ -258,12 +293,12 @@ body{
 	color:#ffffff;
 	font-size: 11pt;
     }
-.texto_resaltado{
+.text_resaltado{
 	font-family: "Nixie One";
 	color:#ede9d4;
 	font-size: 13pt;
     }
-.textrif_blanco{
+.textrif_white{
 	font-family: "Pontano Sans";
 	color:#ffffff;
 	font-size: 10pt;
@@ -275,83 +310,92 @@ body{
 	font-size: 10pt;
     }
 /*TERMINAN LOS ESTILOS DE TEXTO Y EMPIEZAN LOS TEXTOS///////////////////////////////////////////////////////////////////////////////////////////////*/
-#gris1_texto_titulo {
+#gray1_text_title {
 	width: 434px;
 	height: 29px;
 	float: left;
 	padding-left: 130px;
 	padding-top: 25px;
 	}
-#gris1_texto_text {
+
+#gray1_text_text {
 	width: 554px;
 	height: 23px;
 	float: left;
 	padding-top: 20px;
 	padding-left: 10px;
 	}
-#gris1_titulo_izq1 {
+
+#gray1_title_left1 {
 	width: 202px;
 	height: 35px;
 	float: left;
 	padding-top: 16px;
 	}
-#gris1_titulo_dere1 {
+
+#gray1_title_right1 {
 	width: 130px;
 	height: 35px;
 	float: left;
 	padding-top: 16px;
 	padding-left: 10px;
 	}
-#gris1_textos_izq1 {
+
+#gray1_texts_left1 {
 	width: 107px;
 	height: 158px;
 	float: left;
 	line-height: 27px;
 	}
-#gris1_textos_dere1 {
+
+#gray1_texts_right1 {
 	width: 94px;
 	height: 83px;
 	float: left;
 	line-height: 27px;
 	}
-#gris1_titulos2_izq {
+
+#gray1_titles2_left {
 	width: 140px;
 	height: 45px;
 	float: left;
 	padding-top: 58px;
 	}
-#gris1_titulos2_dere {
+
+#gray1_titles2_right {
 	width: 84px;
 	height: 44px;
 	float: left;
 	padding-left: 5px;
 	padding-top: 58px;
 	}
-#gris1_textos3_izq {
+
+#gray1_texts3_left {
 	width: 107px;
 	height: 304px;
 	float: left;
 	line-height: 28px;
 	}
-#gris1_textos3_dere {
+
+#gray1_texts3_right {
 	width: 93px;
 	height: 304px;
 	float: left;
 	line-height: 28px;
 	}
 /*FIN DEL CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
-#espacio_dere {
+#space_right {
 	width: 18px;
 	height: 1311px;
 	position: static;
 	float: right;
     }
-#espacio_dere1 {
+#space_right1 {
 	width: 18px;
 	height: 254px;
 	position: static;
 	float: right;
-	background-image: url(../images/sombra_dere_empre.png);
+	background-image: url(../images/shadow_right_aboutus.png);
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	}
