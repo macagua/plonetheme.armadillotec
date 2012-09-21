@@ -1,25 +1,21 @@
 @charset "UTF-8";
 
 body{
-	margin-left:0px;
-	margin-top:0px;
-	margin-right:0px;
-	margin-bottom: 0px;
+	margin:0px;
 	background-color: #e9e9df;
 	background-image: url(../images/bg_contact.jpg);
 	background-repeat: repeat-x;
 }
-/*todo///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* //////////////// MAIN SECTION //////////////// */
+
 #content_todo {
 	width: 900px;
 	height: 1170px;
 	position: static;
-	margin-right: auto;
-	margin-left: auto;
+	margin: auto;
 	font-style: normal;
 	font-weight: normal;
-	margin-top: auto;
-	margin-bottom: auto;
 	}
 
 #space_left {
@@ -38,7 +34,9 @@ body{
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	}
-/*CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
+	
+/* //////////////// CONTENT SECTION //////////////// */
+
 #medium_todo {
 	width: 863px;
 	height: 1170px;
@@ -71,7 +69,9 @@ body{
 	height: 174px;
 	float: left;
 	}
-/*COMIENZA EL MENU///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* //////////////// MENU SECTION //////////////// */
+
 #green_medium_2 {
 	width: 590px;
 	height: 55px;
@@ -81,56 +81,8 @@ body{
 	background-position: center bottom;
 	}
 
-#menu_todo {
-	width: 580px;
-	height: 53px;
-	float: right;
-	}
+/* //////////////// CONTENT SECTION //////////////// */
 
-#menu_index {
-	font-family: 'Homenaje';
-	width: 70px;
-	height: 53px;
-	float: left;
-	}
-
-#menu_aboutus {
-	font-family: 'Homenaje';
-	width: 95px;
-	height: 53px;
-	float: left;
-	}
-
-#menu_services {
-	font-family: 'Homenaje';
-	width: 93px;
-	height: 53px;
-	float: left;
-	}
-
-#menu_solutions {
-	font-family: 'Homenaje';
-	width: 106px;
-	height: 53px;
-	float: left;
-	}
-
-#menu_technologies {
-	font-family: 'Homenaje';
-	width: 114px;
-	height: 53px;
-	float: left;
-	}
-
-#menu_contact {
-	font-family: 'Homenaje';
-	width: 93px;
-	height: 53px;
-	float: left;
-	background-image: url(../images/contact_down.jpg);
-	background-repeat: no-repeat;
-	}
-/*TERMINA EL MENU Y COMIENZA EL CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
 #gray1_todo {
 	width: 863px;
 	height: 526px;
@@ -168,7 +120,7 @@ body{
 	background-image: url(../images/map_contact.jpg);
 	background-repeat: no-repeat;
 	}
-/*AQUI TE DEJO EL EFRAME TUX PARA QUE SE LO COLOQUES AL HTML ///////// <iframe src="nombre del html.html" width="624" height="372"></iframe> ////////*/
+
 #gray1medium_inf {
 	width: 624px;
 	height: 83px;
@@ -230,7 +182,9 @@ body{
 	padding-top: 10px;
 	padding-left: 140px;
 	}
-/*TERMINA EL CONTENIDO Y COMIENZAN LOS ESTILOS DE TEXTO///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* //////////////// TEXT STYLES SECTION //////////////// */
+
 .titPage{
 	font-family: "Nixie One";
 	color:#768343;
@@ -275,7 +229,7 @@ body{
 	color:#ff4800;
 	font-size: 10pt;
     }
-/*TERMINAN ESTILOS DE TEXTO Y COMIENZAN LOS TEXTOS///////////////////////////////////////////////////////////////////////////////////////////////*/
+
 #gray2_title {
 	width: 319px;
 	height: 35px;
@@ -284,7 +238,7 @@ body{
 	padding-left: 25px;
 	}
 
-#gray2_direccion {
+#gray2_address {
 	width: 319px;
 	height: 60px;
 	float: left;
@@ -298,7 +252,7 @@ body{
 	float: left;
 	}
 
-#gray2_telefonos {
+#gray2_phones {
 	width: 135px;
 	height: 96px;
 	float: left;
@@ -306,7 +260,7 @@ body{
 	padding-left: 25px;
 	}
 
-#gray2_horarios {
+#gray2_office_hours {
 	width: 159px;
 	height: 96px;
 	float: left;
@@ -330,15 +284,17 @@ body{
 	padding-left: 20px;
 	}
 
-#gray2_formulario {
+#gray2_form {
 	width: 335px;
 	height: 260px;
 	float: left;
-	background-image: url(../images/form_contact.jpg);
+/*	background-image: url(../images/form_contact.jpg);
 	background-repeat: no-repeat;
-	background-position: left top;
+	background-position: left top;*/
 	}
-/*FIN DEL CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
+	
+/* //////////////// FOOTER SECTION //////////////// */
+s
 #space_right {
 	width: 18px;
 	height: 1170px;
@@ -354,7 +310,13 @@ body{
 	background-repeat: no-repeat;
 	background-position: left bottom;
 	}
-/*ESTILOS DE HIPERVINCULOS///////////////////////////////////////////////////////////////////////////////////////////////*/
+	
+a:link #link_email {
+	color: #ff4800;
+	text-decoration: none;
+}
+/*ESTILOS DE HIPERVINCULOS///////////////////////////////////////////////////////////////////////////////////////////////
+
 a:link {
 	color: #ff4800;
 	text-decoration: none;
@@ -370,3 +332,4 @@ a:active {
 	text-decoration: none;
 	color: #ff4800;
 }
+*/

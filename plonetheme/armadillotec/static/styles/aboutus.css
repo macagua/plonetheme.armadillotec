@@ -1,26 +1,21 @@
 @charset "UTF-8";
 
 body{
-	margin-left:0px;
-	margin-top:0px;
-	margin-right:0px;
-	margin-bottom: 0px;
+	margin:0px;
 	background-color: #e9e9df;
 	background-image: url(../images/bg_aboutus.jpg);
 	background-repeat: repeat-x;
 }
 
-/*todo///////////////////////////////////////////////////////////////////////////////////////////////*/
+/* //////////////// MAIN SECTION //////////////// */
+
 #content_todo {
 	width: 900px;
 	height: 949px;
 	position: static;
-	margin-right: auto;
-	margin-left: auto;
+	margin: auto;
 	font-style: normal;
 	font-weight: normal;
-	margin-top: auto;
-	margin-bottom: auto;
 	}
 	
 #space_left {
@@ -40,7 +35,7 @@ body{
 	background-position: right bottom;
 	}
 	
-/*CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
+/* //////////////// CONTENT SECTION //////////////// */
 
 #medium_todo {
 	width: 863px;
@@ -75,7 +70,7 @@ body{
 	float: left;
 	}
 	
-/*COMIENZA EL MENU///////////////////////////////////////////////////////////////////////////////////////////////*/
+/* //////////////// MENU SECTION //////////////// */
 
 #green_medium_2 {
 	width: 590px;
@@ -85,58 +80,6 @@ body{
 	background-repeat: no-repeat;
 	background-position: center bottom;
 	}
-
-#menu_todo {
-	width: 580px;
-	height: 53px;
-	float: right;
-	}
-
-#menu_index {
-	font-family: 'Homenaje';
-	width: 70px;
-	height: 53px;
-	float: left;
-	}
-	
-#menu_aboutus {
-	font-family: 'Homenaje';
-	width: 95px;
-	height: 53px;
-	float: left;
-	background-image: url(../images/aboutus_down.jpg);
-	background-repeat: no-repeat;
-	}
-	
-#menu_services {
-	font-family: 'Homenaje';
-	width: 93px;
-	height: 53px;
-	float: left;
-	}
-	
-#menu_solutions {
-	font-family: 'Homenaje';
-	width: 106px;
-	height: 53px;
-	float: left;
-	}
-	
-#menu_technologies {
-	font-family: 'Homenaje';
-	width: 114px;
-	height: 53px;
-	float: left;
-	}
-	
-#menu_contact {
-	font-family: 'Homenaje';
-	width: 93px;
-	height: 53px;
-	float: left;
-	}
-	
-/*TERMINA EL MENU///////////////////////////////////////////////////////////////////////////////////////////////*/
 	
 .titPage {
 	font-family: "Nixie One";
@@ -152,13 +95,12 @@ body{
 	vertical-align: top;
 	}
 	
-.textNormal_left{
+.textNormal_white{
 	font-family: "Pontano Sans";
-	color:#8d8772;
-	font-size: 11pt;
-	text-align: left;
-	vertical-align: top;
-}
+	color:#ffffff;
+	font-size: 10pt;
+	text-align: center;
+	}
 	
 .textNormal_left{
 	font-family: "Pontano Sans";
@@ -172,13 +114,6 @@ body{
 	font-family: "Pontano Sans", sans-serif;
 	color:#ff4800;
 	font-size: 12pt;
-	}
-	
-.textNormal_white{
-	font-family: "Pontano Sans";
-	color:#ffffff;
-	font-size: 10pt;
-	text-align: center;
 	}
 	
 .textNormal1_rif{
@@ -326,7 +261,8 @@ body{
 	padding-left: 140px;
 	}
 	
-/*FIN DEL CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
+/* //////////////// MENU SECTION //////////////// */
+
 #space_right {
 	width: 18px;
 	height: 949px;

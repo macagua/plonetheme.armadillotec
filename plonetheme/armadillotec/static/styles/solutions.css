@@ -1,25 +1,21 @@
 @charset "UTF-8";
 
-body{
-	margin-left:0px;
-	margin-top:0px;
-	margin-right:0px;
-	margin-bottom: 0px;
+body {
+	margin:0px;
 	background-color: #e9e9df;
 	background-image: url(../images/bg_solutions.jpg);
 	background-repeat: repeat-x;
 }
-/*todo///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* //////////////// MAIN SECTION //////////////// */
+
 #content_todo {
 	width: 900px;
 	height: 1021px;
 	position: static;
-	margin-right: auto;
-	margin-left: auto;
+	margin: auto;
 	font-style: normal;
 	font-weight: normal;
-	margin-top: auto;
-	margin-bottom: auto;
 	}
 
 #space_left {
@@ -38,7 +34,9 @@ body{
 	background-repeat: no-repeat;
 	background-position: right bottom;
 	}
-/*CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* //////////////// CONTENT SECTION //////////////// */
+
 #medium_todo {
 	width: 863px;
 	height: 1021px;
@@ -71,7 +69,9 @@ body{
 	height: 174px;
 	float: left;
 	}
-/*COMIENZA EL MENU///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* //////////////// MENU SECTION //////////////// */
+
 #green_medium_2 {
 	width: 590px;
 	height: 55px;
@@ -81,56 +81,8 @@ body{
 	background-position: center bottom;
 	}
 
-#menu_todo {
-	width: 580px;
-	height: 53px;
-	float: right;
-	}
+/* //////////////// END MENU SECTION //////////////// */
 
-#menu_index {
-	font-family: 'Homenaje';
-	width: 70px;
-	height: 53px;
-	float: left;
-	}
-
-#menu_nosotros {
-	font-family: 'Homenaje';
-	width: 95px;
-	height: 53px;
-	float: left;
-	}
-
-#menu_services {
-	font-family: 'Homenaje';
-	width: 93px;
-	height: 53px;
-	float: left;
-	}
-
-#menu_solutions {
-	font-family: 'Homenaje';
-	width: 106px;
-	height: 53px;
-	float: left;
-	background-image: url(../images/solutions_down.jpg);
-	background-repeat: no-repeat;
-	}
-
-#menu_technologies {
-	font-family: 'Homenaje';
-	width: 114px;
-	height: 53px;
-	float: left;
-	}
-
-#menu_contact {
-	font-family: 'Homenaje';
-	width: 93px;
-	height: 53px;
-	float: left;
-	}
-/*TERMINA EL MENU///////////////////////////////////////////////////////////////////////////////////////////////*/
 #gray1_todo {
 	width: 863px;
 	height: 221px;
@@ -152,7 +104,9 @@ body{
 	background-image: url(../images/solutions_bullet1.png);
 	background-repeat: no-repeat;
 	}
-/*TEXTOS ARRIBA///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* //////////////// TEXT UP SECTION //////////////// */
+
 #gray1_text1 {
 	width: 615px;
 	height: 219px;
@@ -179,55 +133,57 @@ body{
 	float: left;
 	padding-top: 9px;
 	}
-/*TERMINAN TEXTOS ARRIBA Y COMIENZAN LOS ESTILOS DE TEXTO///////////////////////////////////////////////////////////////////////////////////////////////*/
-.titPage{
+
+/* //////////////// TEXT COMMON STYLES //////////////// */
+
+.titPage {
 	font-family: "Nixie One";
 	color:#ff4800;
 	font-size: 24pt;
-    }
-.text_resaltado{
+	}
+.text_resaltado {
 	font-family: "Nixie One";
 	color:#ff4800;
 	font-size: 12pt;
-    }
-.textNormal{
+	}
+.textNormal {
 	font-family: "Pontano Sans";
 	color:#8d8772;
 	font-size: 11pt;
 	text-align: justify;
 	vertical-align: top;
-    }
-.textNormal_left{
+	}
+.textNormal_left {
 	font-family: "Pontano Sans";
 	color:#8d8772;
 	font-size: 11pt;
 	text-align: left;
 	vertical-align: top;
 }
-.textNormal_center{
+.textNormal_center {
 	font-family: "Pontano Sans";
 	color:#8d8772;
 	font-size: 11pt;
 	text-align: center;
 	vertical-align: top;
-    }
-.textNormal_white{
+	}
+.textNormal_white {
 	font-family: "Pontano Sans";
 	color:#ffffff;
 	font-size: 10pt;
 	text-align: center;
-    }
-.textNormal1_rif{
+	}
+.textNormal1_rif {
 	font-family: "Pontano Sans", sans-serif;
 	color:#ff4800;
 	font-size: 10pt;
-    }
-.textNormal1{
+	}
+.textNormal1 {
 	font-family: "Pontano Sans", sans-serif;
 	color:#ff4800;
 	font-size: 12pt;
-    }
-/*TERMINAN ESTILOS DE TEXTO///////////////////////////////////////////////////////////////////////////////////////////////*/
+	}
+
 #gray2_todo {
 	width: 863px;
 	height: 394px;
@@ -251,93 +207,17 @@ body{
 	background-repeat: no-repeat;
 	background-position: center top;
 	}
-/*TEXTOS MEDIO///////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* //////////////// MEDIUM TEXT STYLES SECTION //////////////// */
+
 #gray2_text {
+	top:5px;
 	width: 615px;
 	height: 394px;
 	float: left;
 	padding-top: 0px;
 	}
-
-#gray2_title1 {
-	width: 605px;
-	height: 24px;
-	float: left;
-	padding-top: 34px;
-	padding-left: 10px;
-	}
-
-#gray2_title2 {
-	width: 605px;
-	height: 20px;
-	float: left;
-	padding-left: 10px;
-	padding-top: 3px;
-	}
-
-#gray2_title3 {
-	width: 605px;
-	height: 20px;
-	float: left;
-	padding-top: 14px;
-	padding-left: 10px;
-	}
-
-#gray2_title4 {
-	width: 605px;
-	height: 18px;
-	float: left;
-	padding-top: 10px;
-	padding-left: 10px;
-	}
-
-#gray2_title5 {
-	width: 605px;
-	height: 21px;
-	float: left;
-	padding-top: 5px;
-	padding-left: 10px;
-	}
-
-#gray2_text1 {
-	width: 605px;
-	height: 48px;
-	float: left;
-	padding-left: 10px;
-	}
-
-#gray2_text2 {
-	width: 605px;
-	height: 34px;
-	float: left;
-	padding-top: 3px;
-	padding-left: 10px;
-	}
-
-#gray2_text3 {
-	width: 605px;
-	height: 23px;
-	float: left;
-	padding-top: 3px;
-	padding-left: 10px;
-	}
-
-#gray2_text4 {
-	width: 605px;
-	height: 30px;
-	float: left;
-	padding-top: 6px;
-	padding-left: 10px;
-	}
-
-#gray2_text5 {
-	width: 605px;
-	height: 35px;
-	float: left;
-	padding-top: 5px;
-	padding-left: 10px;
-	}
-/*TERMINA TEXTOS MEDIO///////////////////////////////////////////////////////////////////////////////////////////////*/
+	
 #gray3_todo {
 	width: 863px;
 	height: 117px;
@@ -378,13 +258,15 @@ body{
 	padding-top: 10px;
 	padding-left: 140px;
 	}
-/*FIN DEL CONTENIDO///////////////////////////////////////////////////////////////////////////////////////////////*/
+	
+
 #space_right {
 	width: 18px;
 	height: 1021px;
 	position: static;
 	float: right;
-    }
+	}
+	
 #space_right1 {
 	width: 18px;
 	height: 254px;
