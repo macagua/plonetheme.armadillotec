@@ -11,3 +11,9 @@ available in `plone.app.theming`_ to make a theme for the
 .. _`plone.app.theming`: http://pypi.python.org/pypi/plone.app.theming
 .. _`Plone 4.1`: http://pypi.python.org/pypi/Plone/4.1
 .. _`Armadillo Integración Tecnológica C.A.`: http://armadillotec.com/
+
+
+.. image:: https://d2weczhvl823v0.cloudfront.net/macagua/plonetheme.armadillotec/trend.png
+   :alt: Bitdeli badge
+   :target: https://bitdeli.com/free
+
