@@ -9,17 +9,17 @@
 
   <genericsetup:registerProfile
       name="default"
-      title="Armadillo Integración Tecnológica C.A.: Installation profile for Plone 4 Diazo Theme"
+      title="plonetheme.armadillotec"
       directory="profiles/default"
-      description="Installs the plonetheme.armadillotec package"
+      description='Installs the "Armadillo Integración Tecnológica C.A." Plone 4 Diazo Theme.'
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
   <genericsetup:registerProfile
       name="uninstall"
-      title="Armadillo Integración Tecnológica C.A.: Uninstallation profile for Plone 4 Diazo Theme"
+      title="plonetheme.armadillotec: Uninstall profile for Plone 4 Diazo Theme"
       directory="profiles/uninstall"
-      description="Installs the plonetheme.armadillotec package"
+      description='Uninstalls the "Armadillo Integración Tecnológica C.A." Plone 4 Diazo Theme.'
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
