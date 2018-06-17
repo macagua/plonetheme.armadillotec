@@ -1,16 +1,13 @@
 Changelog
 =========
 
+0.1.1 (unreleased)
+------------------
+
+- Added more strings classifiers items for this package [macagua]
+
+
 0.1 (2012-05-24)
 ----------------
 
 - Set the Diazo theme structure packege. [macagua]
-
-
-
-Credits
-=======
-
-Plone packaging based on `plonetheme.canaimaaponwao`_ by [macagua]
-
-.. _plonetheme.canaimaaponwao: https://gitorious.org/plataforma-canaima/plonetheme-canaimaaponwao
