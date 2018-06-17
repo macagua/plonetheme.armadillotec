@@ -19,7 +19,7 @@
       name="uninstall"
       title="plonetheme.armadillotec: Uninstall profile for Plone 4 Diazo Theme"
       directory="profiles/uninstall"
-      description='Uninstalls the "Armadillo Integración Tecnológica C.A." Plone 4 Diazo Theme.'
+      description="Uninstalls the plonetheme.armadillotec package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
