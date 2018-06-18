@@ -25,21 +25,24 @@ Features
 
 - It's an installable Plone_ Theme package.
 - After installation from Add-ons controlpanel, this theme is enabled automatically.
-- Also it's a simple Diazo_ package (Zip file).
 - It's have support for clean uninstallation.
+
+..
+    - Also it's a simple Diazo_ package (Zip file).
 
 
 Installation
 ============
 
 
-Zipfile
--------
+..
+    Zipfile
+    -------
 
-If you are an **end user**, you might enjoy installation via zip file import.
+    If you are an **end user**, you might enjoy installation via zip file import.
 
-1. Download the `zip file <https://github.com/macagua/plonetheme.armadillotec/raw/master/armadillotec.zip>`_.
-2. Import the theme from the Diazo theme control panel.
+    1. Download the `zip file <https://github.com/macagua/plonetheme.armadillotec/raw/master/armadillotec.zip>`_.
+    2. Import the theme from the Diazo theme control panel.
 
 
 Buildout
