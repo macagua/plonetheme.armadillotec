@@ -17,7 +17,7 @@
 
   <genericsetup:registerProfile
       name="uninstall"
-      title="plonetheme.armadillotec: Uninstall profile for Plone 4 Diazo Theme"
+      title="plonetheme.armadillotec Uninstall"
       directory="profiles/uninstall"
       description="Uninstalls the plonetheme.armadillotec package"
       provides="Products.GenericSetup.interfaces.EXTENSION"
