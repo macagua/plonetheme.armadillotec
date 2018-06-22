@@ -11,7 +11,7 @@
       name="default"
       title="plonetheme.armadillotec"
       directory="profiles/default"
-      description='Installs the "Armadillo Integración Tecnológica C.A." Plone 4 Diazo Theme.'
+      description='Installs the plonetheme.armadillotec package'
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
 
